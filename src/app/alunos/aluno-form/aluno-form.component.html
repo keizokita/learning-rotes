@@ -11,7 +11,7 @@
 <div class="mb-3">
     <div class="row">
         <label for="formGroupExampleInput2" class="form-label">Nome</label>
-        <input disabled [(ngModel)]="aluno.nome" type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+        <input disabled [(ngModel)]="aluno.nome" type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder" (input)="onInput">
     </div>
 </div>
 <div class="mb-3">
